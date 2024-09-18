@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ethan Hugh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<div class="popup-container" id="popup-container" onclick="close_popup()">
+					<div class="popup-box">
+						<h2 id="popup-header"></h2>
+						<i><h3 id="popup-time"></h3></i>
+						<p id="popup-content"></p>
+						<h4>CLICK ANYWHERE TO EXIT</h4>
+					</div>
+				</div>
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="index.html"> Ethan Hugh</a></li>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="generic.html">About Me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<!-- Pop ups -->
+					<div id="main">
+						<div class="inner">
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<h1>Hey there, I'm Ethan,<br />
+							a fourth year Computer Engineering student.</h1>
+							<p>Let me show you some of the places I've worked as well as some of the projects I've worked on!</p>
+							<br/>
+							<br/>
+							<br/>
+							<h1 id="experience">Experience</h1>
+							<section class="tiles2">
+								<article class="style1" onclick="open_popup(1)">
+									<span class="image">
+										<img src="images/cerebras.jpg" alt="" />
+									</span>
+									<a>
+										<h2>Cerebras</h2>
+										<div class="content">
+											<p>Software Engineering Intern</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2" onclick="open_popup(2)">
+									<span class="image">
+										<img src="images/iqua.jpg" alt="" />
+									</span>
+									<a>
+										<h2>iQua Research Group</h2>
+										<div class="content">
+											<p>Academic Researcher</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3" onclick="open_popup(3)">
+									<span class="image">
+										<img src="images/haven.jpg" alt="" />
+									</span>
+									<a>
+										<h2>Haven</h2>
+										<div class="content">
+											<p>Co-Founder and CTO</p>
+										</div>
+									</a>
+								</article>
+							</section>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<h1 id="publishments">Publishments</h1>
+							<br/>
+							<a href="https://iqua.ece.toronto.edu/papers/feiwang-infocom23.pdf">
+								<h2>(Best paper award) More than Enough is Too Much:
+									Adaptive Defenses against Gradient Leakage in
+									Production Federated Learning
+								</h2>
+								<p>Fei Wang, Ethan Hugh, Baochun Li</p>
+							</a>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<h1 id="projects">Projects</h1>
+							<section class="tiles">
+								<article class="style1" onclick="open_popup(4)">
+									<span class="image">
+										<img src="images/virt_ta.jpg" alt="" />
+									</span>
+									<a>
+										<h2>Virtual Teaching Assistant</h2>
+									</a>
+								</article>
+								<article class="style2" onclick="open_popup(5)">
+									<span class="image">
+										<img src="images/dist_systems.jpg" alt="" />
+									</span>
+									<a>
+										<h2>Distributed Storage System</h2>
+									</a>
+								</article>
+								<article class="style3" onclick="open_popup(6)">
+									<span class="image">
+										<img src="images/maps.jpg" alt="" />
+									</span>
+									<a>
+										<h2>99 Ways</h2>
+									</a>
+								</article>
+							</section>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<section id="about">
+								<div class="container">
+									<div class="text-column">
+										<h1>About Me</h1>
+										<p>
+											Hi! My name is Ethan Hugh and I'm currently a Computer Engineering student 
+											at the University of Toronto.
+										</p>
+										<p>
+											I grew up in a Hakka Chinese community in India, with a mesh of cultures 
+											that taught me to look at things using different perspectives.
+										</p>
+										<p>
+											My past work experience reflects this ideology, as I've gained experience 
+											in various facets of Computer Engineering, across entrepreneurship, research and industry.
+										</p>
+										<p>
+											I strive to keep learning and to collaborate with other passionate people, 
+											and most of all, excited for what the future holds!
+										</p>
+									</div>
+									<div class="pic-column">
+										<img src="images/pfp2.jpg" class="pfp"/>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Contact Me</h2>
+								<ul class="icons">
+									<li><a href="https://github.com/EthanHugh/" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:ethan.hugh@mail.utoronto.ca" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://www.linkedin.com/in/ethan-hugh/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</section>
+						</div>
+					</footer> 
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function open_popup(i) {
+					document.body.classList.add("no-scroll");
+					let popupContainer = document.getElementById("popup-container");
+					popupContainer.classList.add("active");
+
+					switch (i) {
+						case 1:
+							document.getElementById("popup-header").innerHTML = "Cerebras Systems - Software Engineering Intern"
+							document.getElementById("popup-time").innerHTML = "May 2023 - April 2024"
+							document.getElementById("popup-content").innerHTML = "I worked at Cerebras for my PEY internship, where \
+										I got to work with the runtime team at <b>Cerebras Systems</b> in Toronto, who make AI accelerators. \
+										In this internship, I worked on a lot of low level software, closely linked with \
+										the Operating System/kernel.<br>I got to work on a lot of big projects, some requiring \
+										state of the art technology. Some of the projects I worked on include: <b>support for \
+										RoCE over our entire network</b>, which is a new and better data transmission protocol \
+										over the commonly found TCP; and a proof of concept for <b>RTVM</b>, which is used to \
+										enable swap space for the Runtime software stack using a <b>furthest in future eviction \
+										algorithm</b>, to expand AI model sizes without any compromise to performance.<br> \
+										The startup culture at this company was what allowed me to be very innovative along \
+											with such big responsibilities even as an intern."
+
+												
+							break;
+						case 2:
+							document.getElementById("popup-header").innerHTML = "iQua Research Group - Academic Researcher"
+							document.getElementById("popup-time").innerHTML = "May 2022 - September 2022"
+							document.getElementById("popup-content").innerHTML = "My internship at the iQua Research Group was my first exposure to \
+										academic research. I worked with professor Baochun Li and his PhD student Fei Wang to publish \
+										a paper for IEEE INFOCOM 23, where we won the <b>best paper award</b>, beating out 1000+ other submissions<br/> \
+										The paper I wrote was to analyse the current state of the art for defences against \
+										<b>Gradient Leakage Attacks in Production Federation Learning</b>. We found that current defences \
+										went extremely overboard, causing over 100x slowdowns. I proposed a new simple lightweight \
+										defence that would scale based on how vulnerable the system was, that the PhD student Fei refined \
+										for our final submission."
+							break;
+						case 3:
+							document.getElementById("popup-header").innerHTML = "Haven Safe - Co-Founder and CTO"
+							document.getElementById("popup-time").innerHTML = "January 2021 - August 2022"
+							document.getElementById("popup-content").innerHTML = "Haven Safe was a startup that my friend and I founded. \
+										We created a <b>campus safety app</b>, since we were going to have in person university for the first \
+										time since COVID. We began work on it during our freshman year, which was a huge task, especially at the time.<br\> \
+										The app was created natively on both <b>iOS</b> and <b>Android</b>, with a backend <b>REST API</b> using <b>Django.</b> \
+										We managed to build a userbase of <b>over 10,000</b> users, and gained valuable connections with Sexual Assault \
+										Centres and Universities across Canada. <br/> \
+										I learnt a tremendous amount with Haven Safe. I gained technical skills as well as entrepreneural skills \
+										and most of all, began my career in software, which I've grown to love."
+							break;
+						case 4:
+							document.getElementById("popup-header").innerHTML = "Virtual Teaching Assistant"
+							document.getElementById("popup-time").innerHTML = "April 2024 - Present"
+							document.getElementById("popup-content").innerHTML = "This is my capstone project in a group of 4 where we are \
+										making a course specific chatbot to answer course specific questions, both logistical (such as assignment due dates) \
+										as well as conceptual. A professor can simply upload course related documents to use our project. \
+										We are developing it using Retrieval Augmented Generation (RAG) to utilise LLMs and \
+										answer student questions on topics that the LLM has not trained on.<br/> \
+										We are currently testing it out for the course APS105 at the University of Toronto with professor \
+										Salma Emara.<br/> \
+										We are using LlamaIndex, OpenAI and Python for this project."
+							break;
+						case 5:
+							document.getElementById("popup-header").innerHTML = "Distributed Storage System"
+							document.getElementById("popup-time").innerHTML = "January 2023 - May 2023"
+							document.getElementById("popup-content").innerHTML = "This was a project I worked on in a group of 3 where we designed \
+										a distributed Key Value storage system that allows for up to 67% of concurrent server failures. This was done \
+										by using a hash ring along with the Raft Consensus Algorithm.<br/> \
+										This project was done using Java."
+							break;
+						case 6:
+							document.getElementById("popup-header").innerHTML = "99 Ways"
+							document.getElementById("popup-time").innerHTML = "January 2022 - May 2022"
+							document.getElementById("popup-content").innerHTML = "This project was a mapping algorithm I created with 2 other friends. \
+										We created the map using data from OpenStreetMaps, a large open source database for map data. \
+										The map also allows the user to find an optimal path to a destination of theirs using Dijkstra's algorithm \
+										and A star search, with an animation on how the algorithm actually finds the path.<br/> \
+										This project was built using C++ for the backend and OpenGL for the frontend."
+							break;
+					}
+				}
+
+				function close_popup() {
+					document.body.classList.add("no-scroll");
+					let popupContainer = document.getElementById("popup-container");
+					popupContainer.classList.remove("active");
+					document.body.classList.remove("no-scroll");
+				}
+			</script>
+
+	</body>
+</html>
